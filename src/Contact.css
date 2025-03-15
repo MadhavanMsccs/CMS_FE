@@ -1,0 +1,82 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f4f4f4;
+}
+
+.Contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background:hsla(170, 75%, 41%, 0.15);
+}
+
+form {
+    max-width: 600px;
+    width: 100%;
+    background: #fff;
+    padding: 25px 25px 30px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    color: #333;
+    margin: 25px;
+}
+
+form h2 {
+    font-size: 30px;
+    text-align: center;
+}
+
+.input-box {
+    margin-top: 20px;
+}
+
+.input-box .field {
+    width: 100%;
+    height: 50px;
+    background: transparent;
+    border: 2px solid #ddd;
+    outline: none;
+    border-radius: 6px;
+    padding: 15px;
+    font-size: 16px;
+    color: #333;
+    margin-top: 8px;
+    transition: all 0.3s ease;
+}
+
+.input-box .field.mess {
+    height: 200px;
+    resize: none;
+}
+
+.input-box .field:hover {
+    border-color: #826afb;
+    box-shadow: 0 0 5px rgba(130, 106, 251, 0.5);
+}
+
+.input-box .field:focus {
+    border-color: #624ec6;
+    box-shadow: 0 0 5px rgba(98, 78, 198, 0.5);
+}
+
+form button {
+    width: 100%;
+    height: 55px;
+    background: #826afb;
+    border: none;
+    border-radius: 6px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    font-size: 16px;
+    color: #fff;
+    font-weight: 500;
+    margin-top: 25px;
+    transition: background 0.5s;
+}
+
+form button:hover {
+    background: hsla(170, 75%, 41%, 0.15);
+    box-shadow: 0 0 15px rgba(80, 56, 160, 0.5);
+}
